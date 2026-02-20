@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTM Outing Proposal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>LTM Outing Proposal 2026</h1>
+    <p>Leader Training Module - Gnan Mandir</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">Project Details</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Trip Route</h2>
+    <p>Gnan Mandir → D Mart → Kamla Nehru Zoo → Gnan Mandir</p>
+    <p>Total Distance: 68 KM</p>
+</section>
+
+<footer>
+    <p>Created by Aniket | LTM 2026</p>
+</footer>
+
+</body>
+</html>           
