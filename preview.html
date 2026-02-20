@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTM Ultra Pro Preview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00f5d4;
+    transform: scale(1.1);
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* CARDS */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    transition: 0.4s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.card h2 {
+    color: #00f5d4;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: rgba(255,255,255,0.05);
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Project</a>
+</nav>
+
+<section class="hero">
+    <h1>LTM Educational Outing 2026</h1>
+    <p>Gnan Mandir → D Mart → Kamla Nehru Zoo → Gnan Mandir</p>
+    <p>Total Distance: 68 KM</p>
+</section>
+
+<section class="container">
+
+    <div class="card">
+        <h2>👨‍🎓 Students</h2>
+        <p>Total Students: 54</p>
+        <p>Class: 5 to 8</p>
+        <p>Leadership Activity</p>
+    </div>
+
+    <div class="card">
+        <h2>🚌 Transportation</h2>
+        <p>Total Budget: ₹2720</p>
+        <p>Per Student: ₹49</p>
+        <p>Total Distance: 68 KM</p>
+    </div>
+
+    <div class="card">
+        <h2>🍱 Food Budget</h2>
+        <p>Total Budget: ₹5255</p>
+        <p>Per Student: ₹95</p>
+        <p>Healthy Lunch Included</p>
+    </div>
+
+    <div class="card">
+        <h2>📍 Route Details</h2>
+        <p>GM → D Mart (23 KM | 36 Min)</p>
+        <p>D Mart → Zoo (9 KM | 26 Min)</p>
+        <p>Zoo → GM (27 KM | 58 Min)</p>
+    </div>
+
+</section>
+
+<footer>
+    Designed by Aniket | LTM Ultra Pro Level
+</footer>
+
+</body>
+</html>
